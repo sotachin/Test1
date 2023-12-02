@@ -15,14 +15,18 @@ namespace test2301.Controllers
             return View();
         }
         //diff name
+        [ActionName("Info")]
         public ActionResult ShowInfo()
+
         {
             return View("Show");
         }
+        [NonAction]
         public ActionResult Detail()
         {
             return View("Details");
         }
+        [HttpPost]
         public ActionResult ShowMoreDetail()
         {
             return View("~/Views/About/MyProfile.cshtml");

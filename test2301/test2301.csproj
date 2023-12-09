@@ -116,6 +116,7 @@
     <Content Include="Views\About\MyProfile.cshtml" />
     <Content Include="Views\Home\Detail.cshtml" />
     <Content Include="Views\Shared\Details.cshtml" />
+    <Content Include="Views\Item\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -127,7 +128,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Views\Contact\" />
     <Folder Include="Views\Document\" />
-    <Folder Include="Views\Item\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
